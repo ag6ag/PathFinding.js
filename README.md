@@ -2,7 +2,7 @@ PathFinding.js
 ==============
 #### A comprehensive path-finding library in javascript. ####
 
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/qiao/PathFinding.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/qiao/PathFinding.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![Build Status](https://travis-ci.org/qiao/PathFinding.js.svg?branch=master)](https://travis-ci.org/qiao/PathFinding.js)
 [![Dependency Status](https://david-dm.org/qiao/pathfinding.js.png)](https://david-dm.org/qiao/pathfinding.js)
@@ -161,7 +161,7 @@ Note that `dontCrossCorners` only makes sense when `allowDiagonal` is also used.
 
 For `AStarFinder`, `BestFirstFinder` and all their `Bi` relatives, you may indicate which heuristic function to use.
 
-The predefined heuristics are `PF.Heuristic.manhattan`(defalut), `PF.Heuristic.chebyshev`, `PF.Heuristic.euclidean` and `PF.Heuristic.octile`.
+The predefined heuristics are `PF.Heuristic.manhattan`(default), `PF.Heuristic.chebyshev`, `PF.Heuristic.euclidean` and `PF.Heuristic.octile`.
 
 To use the chebyshev heuristic:
 
